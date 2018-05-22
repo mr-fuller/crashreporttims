@@ -9,14 +9,14 @@ The program is currently designed as a script tool that runs through ArcGIS Pro.
 
 1. use main.py as the script 
 2. Set up input parameters based on main.py
-  1. GCATfile: text file of crash data
-  2. MTCFfile: text file of crash data
-  3. fatalwt: integer or float
-  4. seriouswt: integer or float
-  5. nonseriouswt: integer or float
-  6. possiblewt: integer or float
-  7. intersectionThreshold: integer or float
-  8. SegmentTheshold: integer or float
+  - GCATfile: text file of crash data
+  - MTCFfile: text file of crash data
+  - fatalwt: integer or float
+  - seriouswt: integer or float
+  - nonseriouswt: integer or float
+  - possiblewt: integer or float
+  - intersectionThreshold: integer or float
+  - SegmentTheshold: integer or float
 3. update directory to save files output by the program
 4. Create buffered shapefiles/featureclasses/geopackages of the intersections and segments in your jurisdiction
 5. Determine Equivalent Property Damage Only (EPDO) weights of more serious crashes
